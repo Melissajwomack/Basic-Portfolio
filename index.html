@@ -2,33 +2,36 @@
 <html lan="en us">
 
 <head>
+    <link href="../Basic-Portfolio/assests/css/style.css" rel="stylesheet">
     <meta charset="UTF 8">
     <title>Melissa Womack</title>
 </head>
 
 <body>
 
-    <header>
-        <h1>Melissa Womack</h1>
-        <nav>
-            <a href="index.html">About</a>
-            <div></div>
-            <a href="portfolio.html">Portfolio</a>
-            <div></div>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <div>
+    <header id="headerMain">
+        <section id="headerName">
+            <h1>Melissa Womack</h1>
+        </section>
         <section>
-            <h1>About Me</h1>
+            <nav id="navHeader">
+                <a class="aHeader" href="index.html">About</a> |
+                <a class="aHeader" href="portfolio.html">Portfolio</a> |
+                <a class="aHeader" href="contact.html">Contact</a>
+            </nav>
+        </section>
+    </header>
+    <div id="contentAbout">
+        <section>
+            <h1 id="aboutMe">About Me</h1>
             <hr>
-            <img src="../Basic-Portfolio/assests/images/Profil.jpeg" alt="Melissa Womack's Picture">
+            <img id="profilePic" src="../Basic-Portfolio/assests/images/Profil.jpeg" alt="Melissa Womack's Picture">
             <p>My name is Melissa Womack, I live in Austin, TX. I am an aspiring full stack web developer. I am currently attending
                 a coding boot camp at the University of Texas Austin. Prior to this I spent 8 years in the Army, and I just
                 graduated with a degree in Microbiology from Texs State University.</p>
         </section>
     </div>
-    <footer>
+    <footer id="footer">
         <p>Copyright &copy;</p>
     </footer>
 </body>

@@ -2,44 +2,50 @@
 <html lan="en us">
 
 <head>
+    <link href="../Basic-Portfolio/assests/css/style.css" rel="stylesheet">
     <meta charset="UTF 8">
     <title>Melissa Womack</title>
 </head>
 
 <body>
-    <header>
-        <h1>Melissa Womack</h1>
-        <nav>
-            <a href="index.html">About</a>
-            <div></div>
-            <a href="portfolio.html">Portfolio</a>
-            <div></div>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <div>
+    <header id="headerMain">
+        <section id="headerName">
+            <h1>Melissa Womack</h1>
+        </section>
         <section>
-            <h1>Contact</h1>
+            <nav id="navHeader">
+                <a class="aHeader" href="index.html">About</a> |
+                <a class="aHeader" href="portfolio.html">Portfolio</a> |
+                <a class="aHeader" href="contact.html">Contact</a>
+            </nav>
+        </section>
+    </header>
+    <div id="contentContact">
+        <section>
+            <h1 id="contact">Contact</h1>
             <hr>
             <form action="#" method="post"></form>
             <div>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="user_name">
+                <br>
+                <input placeholder="John Doe" type="text" id="name" name="user_name">
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="text" id="name" name="user_email">
+                <br>
+                <input placeholder="example@gmail.com" type="text" id="name" name="user_email">
             </div>
             <div>
                 <label for="message">Message</label>
-                <textarea type="text" id="name" name="user_message"></textarea>
-                <div class="button">
-                    <button type="submit">Submit</button>
-                </div>
+                <br>
+                <textarea placeholder="Type your message here..." type="text" id="name" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Submit</button>
             </div>
         </section>
     </div>
-    <footer>
+    <footer id="footer">
         <p>Copyright &copy;</p>
     </footer>
 </body>
