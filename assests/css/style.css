@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: 1.75em;
 }
 
 body {
-    background-color: rgb(240, 237, 234);
+    background-image: url(../images/oriental.png)
 }
 
 #headerMain {
@@ -63,6 +64,7 @@ body {
     background-color: #ffffff;
     overflow: auto;
     clear: both;
+    padding: 10px;
 }
 
 #contentContact {
@@ -110,12 +112,11 @@ p {
     text-align: center;
     font-family: "Georgia", Times, "Times New Roman", serif;
     color: #fefffe;
-    position: relative;
     width: 200px;
     height: 200px;
     margin: 10px;
-    overflow: auto;
-    clear: both;
+    float: left;
+    position: relative;
 }
 
 .icons {
@@ -125,11 +126,11 @@ p {
 
 .iconDiv {
     background-color: #4aaaa5;
-    position: absolute;
-    z-index: 3;
     bottom: 8px;
     padding: 10px;
     width: 180px;
+    position: relative;
+    bottom: 70px;
 }
 
 label {
@@ -146,19 +147,20 @@ button {
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 10px;
+    width: 100px;
 }
 
 input {
     margin-left: 20px;
     margin-bottom: 10px;
-    width: 365px;
+    width: 95%;
     padding: 2px;
 }
 
 textarea {
     margin-left: 20px;
     margin-bottom: 10px;
-    width: 370px;
+    width: 95.5%;
     height: 100px;
 }
 #footer {
