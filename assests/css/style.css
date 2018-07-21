@@ -56,6 +56,7 @@ body {
     overflow: auto;
     clear: both;
     border: 1px solid #dddddd;
+    margin-bottom: 200px;
 }
 
 #contentPortfolio {
@@ -67,6 +68,7 @@ body {
     clear: both;
     padding: 10px;
     border: 1px solid #dddddd;
+    margin-bottom: 200px;
 }
 
 #contentContact {
@@ -77,6 +79,7 @@ body {
     overflow: auto;
     clear: both;
     border: 1px solid #dddddd;
+    margin-bottom: 200px;
 }
 
 #aboutMe {
@@ -177,4 +180,6 @@ textarea {
     bottom: 0;
     right: 0;
     width: 100%;
+
 }
+
